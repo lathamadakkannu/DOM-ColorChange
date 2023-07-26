@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+    <link rel="stylesheet"href="style.css">
+</head>
+
+<body>
+    <section id="color">
+    <h1>COLOR CHANGE</h1>
+    <div class="container">
+        <label for="box">Enter the name of the box color :</label>
+        <input id="box"type="text"onchange="colorChange()">
+        <label for="body">Enter the name of the body color :</label>
+        <input id="body"type="text"onchange="bodyColorChange()">
+    </div>
+
+    <div>
+        <p id="para"onclick="parachange()">A clock is a machine in which a device that performs regular movements in equal intervals of time is linked to 
+                            a counting mechanism that records the number of movements. it can measure periods of time and as an alarm clock it can bring people out of sleep.
+         </p>
+    </div>
+
+</section>
+    <script src="main.js"></script>
+</body>
+</html>

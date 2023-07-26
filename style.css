@@ -1,0 +1,19 @@
+*{
+	margin:auto;
+	padding:0;
+	box-sizing:border-box;
+}
+
+#color h1{
+	text-align: center;
+	padding-top:30px;
+}
+#para{
+    padding:25px;
+	font-size:20px;
+}
+.container{
+	padding-left:20%;
+	padding-top:50px;
+	font-size:20px;
+}
